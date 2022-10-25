@@ -27,7 +27,7 @@ function Lojas({img, text, NomeLoja}){
             </Fade>
             </div>
             <div className='container_paragrafo'>
-                <Fade right>
+                <Fade top>
                 <p><span className='nome_Loja'>{NomeLoja}</span>{text}</p>
                 </Fade>
             </div>

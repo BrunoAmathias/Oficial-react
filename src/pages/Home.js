@@ -5,7 +5,7 @@ import Sobre from '../layouts/sobre'
 import img1 from '../images/jkfora.jpeg'
 import img2 from '../images/andalofora3.jpeg'
 import img3 from '../images/servfesta.jpeg'
-import img4 from '../images/cardapio-cerveja.webp'
+import img4 from '../images/isca-de-frango.jpeg'
 import Popup from '../layouts/popup'
 
 
