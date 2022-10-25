@@ -1,13 +1,16 @@
 import './partecardapio.style.css'
 import ModalImage from "react-modal-image";
+import Fade from 'react-reveal/Fade';
+
 
 function Partecardapio({img, title, list}){
     return(
         <>
            
-
+                <Fade duration={1500}>
             <div className='container_secundario'>                
                 <div className='container_img'>
+                    
                     <ModalImage
                         small={img}
                         large={img}
@@ -16,6 +19,7 @@ function Partecardapio({img, title, list}){
                         hideZoom={false}
                         className="img"
                         />
+                    
                 </div>
                 <div className='container_cardapio' >
                 <h1>{title}</h1>
@@ -28,6 +32,7 @@ function Partecardapio({img, title, list}){
                 </ul>
                 </div>
                 </div>
+                </Fade>
         </>
     )
 }

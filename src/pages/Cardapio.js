@@ -1,4 +1,5 @@
 import './cardapio.style.css'
+import Fade from 'react-reveal/Fade';
 import Partecardapio from '../layouts/partecardapio'
 import img1 from '../images/foto-espeto.jpeg'
 import img2 from '../images/porcao2.jpeg'
@@ -13,7 +14,9 @@ return(<>
 <div className='container_background_cardapio'>
         
         <div className='escrita_background_cardapio'>
+            <Fade duration={1500}>
             <h1>Cardápio</h1>
+            </Fade>
         </div>
     </div>
 

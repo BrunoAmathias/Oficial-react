@@ -1,5 +1,7 @@
 import './lojas.style.css'
 import ModalImage from "react-modal-image";
+import Fade from 'react-reveal/Fade';
+
 
 
 
@@ -13,6 +15,7 @@ function Lojas({img, text, NomeLoja}){
         
         <div className='container'>
             <div className="container_img">
+            <Fade duration={1500}>
             <ModalImage
               small={img}
               large={img}
@@ -21,9 +24,12 @@ function Lojas({img, text, NomeLoja}){
               hideZoom={false}  
               className="foto"
             />
+            </Fade>
             </div>
             <div className='container_paragrafo'>
+                <Fade right>
                 <p><span className='nome_Loja'>{NomeLoja}</span>{text}</p>
+                </Fade>
             </div>
         </div>
 

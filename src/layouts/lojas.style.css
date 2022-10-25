@@ -5,7 +5,8 @@
     margin: 0% 5%;
     padding: 70px 0 70px 0;
     font-family: roboto;
-    
+    overflow: hidden;
+
 }
 .container_img{
     width: 350px;

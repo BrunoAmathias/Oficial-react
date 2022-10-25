@@ -20,13 +20,12 @@ return(
     <div className='container_background'>
         
         <div className='escrita_background'>
-           <Fade>
+           <Fade duration={1500}>
             <h1>Oficial Chopp & Espeto</h1>
-            </Fade>
             <p>Deliciosas opções de espetos, 
                 lanches, salgados, com cardápio promocional todos os dias!
                  Venha saborear nossos pratos!</p>
-                 
+            </Fade>
         </div>
     </div>
 
@@ -51,12 +50,13 @@ return(
             
               
               <div className="container_sobre">
-
+        
         <Sobre title="Nossa Missão" text="Apresentar um diferencial em qualidade e atendimento, tendo em vista a excelência em variedades, em um ambiente agradável, com estrutura de 
         ponta e profissionais capacitados a prestar o melhor atendimento."/>
         <Sobre title="Nossa Visão" text="Ser uma empresa reconhecida por sua sustentabilidade, qualidade e excelência em nosso atendimento, aliando a tecnologia ao atendimento rápido 
         e eficaz de nossa equipe. Buscando sempre superar as espectativas."/>
         <div className='list'>
+            <Fade>
             <h1>Nossos Valores</h1>
             <ul>
                 <li>Comprometimento;</li>
@@ -65,8 +65,10 @@ return(
                 <li>Respeito aos clientes;</li>
                 <li>Valorização aos colaboradores.</li>
            
-            </ul>
+            </ul> 
+            </Fade>
         </div>
+       
             </div>
      </main>
     </div>
