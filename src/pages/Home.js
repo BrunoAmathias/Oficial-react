@@ -1,4 +1,5 @@
 import './home.style.css'
+import Fade from 'react-reveal/Fade';
 import Lojas from '../layouts/Lojas'
 import Sobre from '../layouts/sobre'
 import img1 from '../images/jkfora.jpeg'
@@ -19,8 +20,9 @@ return(
     <div className='container_background'>
         
         <div className='escrita_background'>
-           
+           <Fade>
             <h1>Oficial Chopp & Espeto</h1>
+            </Fade>
             <p>Deliciosas opções de espetos, 
                 lanches, salgados, com cardápio promocional todos os dias!
                  Venha saborear nossos pratos!</p>
