@@ -1,0 +1,76 @@
+
+.container_header{
+    background-color: #000;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 85%;
+}
+.header img{
+    width: 180px;
+}
+.list-principal{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size:clamp(1.2rem, 1.4rem , 1.7rem);
+}
+.header ul li a{
+padding: 0 7px;
+text-decoration: none;
+color: #fff;
+transition: all linear 0.1s;
+}
+.header ul li a:hover{
+    color: rgb(214,161,67);
+}
+
+.nav_mob{
+    display: none;
+    
+}
+
+.subMenu{
+    position: absolute;
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   font-size: 17px;
+   line-height: 40px;
+   opacity: 0;
+   height: 0;
+   padding: 15px 0px 0 5px;
+   visibility: hidden;
+   background-color: rgb(30,30,30);   
+   transition: 0.3s;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   z-index: 2;
+}
+.subMenuOpen{
+height: 115px;
+opacity: 1;
+visibility: visible;
+}
+.btnMenuSub{
+    padding-right: 25px;
+    transition: all linear 0.2s;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btnMenuSubOpen{
+    background-color: rgb(30,30,30);}
+
+
+
+@media(max-width:980px){
+.nav_desk{
+    display: none;
+}
+
+    
+}

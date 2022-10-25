@@ -1,0 +1,29 @@
+.container_missao{
+    margin-bottom: 3%;
+    width: 27%;
+    color: #fff;
+    line-height: 22px;
+    padding-top: 3%;
+    font-family: roboto;
+
+}
+.container_missao h1{
+    color: rgb(214,161,67);
+    padding-bottom: 5%;
+}
+
+@media(max-width: 899px){
+    .container_missao{
+        width: 90%;
+        padding: 0 0;
+    
+    }
+    .container_missao h1{
+        text-align: center;
+    }
+}
+@media(max-width: 460px){
+    .container_missao{
+        padding: 3% 0;
+    }
+}
