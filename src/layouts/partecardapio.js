@@ -10,15 +10,15 @@ function Partecardapio({img, title, list}){
                 <Fade duration={1500}>
             <div className='container_secundario'>                
                 <div className='container_img'>
-                    
-                    <ModalImage
+                    <img className='img' src={img} alt="" />
+                    {/* <ModalImage
                         small={img}
                         large={img}
                         alt={title}
                         hideDownload={true}
                         hideZoom={false}
                         className="img"
-                        />
+                        /> */}
                     
                 </div>
                 <div className='container_cardapio' >
